@@ -1,0 +1,9 @@
+.home-layout {
+  display: flex;
+}
+
+.home-content {
+  margin-left: 270px; /* Adjust according to sidebar width */
+  padding: 20px;
+  width: 100%;
+}
