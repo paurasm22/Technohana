@@ -5,64 +5,78 @@ import "../Sidebar.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <h2>TechnoHana</h2>
+      <h2>Navigation</h2>
       <ul>
         <li>
-          <Link to="/home/communication">Communication (Sales & FM)</Link>
+          <Link to="/home/vendordetail">Vendor</Link>
         </li>
         <li>
-          <Link to="/home/ghl">GHL</Link>
+          <Link to="/home/technology">Technology</Link>
         </li>
         <li>
-          <Link to="/home/directory">Directory</Link>
+          <Link to="/home/adddomain">Add Domain</Link>
         </li>
         <li>
-          <Link to="/home/dm-kpi">DM KPI</Link>
+          <Link to="/home/editdomain">Edit Domain</Link>
         </li>
         <li>
-          <Link to="/home/master-kpi">Master KPI</Link>
+          <Link to="/course-list">Course List</Link>
         </li>
         <li>
-          <Link to="/home/qubits-mocks">Qubits Mocks / Viva</Link>
+          <Link to="/add-course">Add Course</Link>
         </li>
         <li>
-          <Link to="/home/checklist-panel">Checklist Panel</Link>
+          <Link to="/edit-custom-course">Edit Custom Course</Link>
         </li>
         <li>
-          <Link to="/home/idp">Individual Development Program (IDP)</Link>
+          <Link to="/course-sequence">Course Sequence</Link>
         </li>
         <li>
-          <Link to="/home/questions">Questions</Link>
+          <Link to="/add-category-pages">Add Category Pages</Link>
         </li>
         <li>
-          <Link to="/home/exam-certification">Exam Certification Request</Link>
+          <Link to="/add-featured-students">Add Featured Students</Link>
         </li>
         <li>
-          <Link to="/home/tail-record">Tail Record</Link>
+          <Link to="/combo">Combo</Link>
         </li>
         <li>
-          <Link to="/home/net-payable">Net Payable</Link>
+          <Link to="/keywords-in-page">Keywords In Page</Link>
         </li>
         <li>
-          <Link to="/home/ess">Employees Self Service</Link>
+          <Link to="/tech-pc">Tech PC</Link>
         </li>
         <li>
-          <Link to="/home/trainer-contact">Trainer Contact</Link>
+          <Link to="/exam-detail">Exam Detail</Link>
         </li>
         <li>
-          <Link to="/home/auto-resume">Auto Resume</Link>
+          <Link to="/trainer-course-relation">Trainer Course Relation</Link>
         </li>
         <li>
-          <Link to="/home/link-certification">Link Certification Employee</Link>
+          <Link to="/view-trainer-course-relation">
+            View Trainer Course Relation
+          </Link>
         </li>
         <li>
-          <Link to="/home/employee-leave">Employee Leave Panel</Link>
+          <Link to="/faq">FAQ</Link>
         </li>
         <li>
-          <Link to="/home/leave-approval">Leave Approval</Link>
+          <Link to="/course-content">Course Content (PDF)</Link>
         </li>
         <li>
-          <Link to="/home/sales-assistant">Sales Assistant</Link>
+          <Link to="/tech-tree">Tech Tree</Link>
+        </li>
+        <li>
+          <Link to="/ab-test">AB Test</Link>
+        </li>
+        <li>
+          <Link to="/upload-google-analytics">Upload Google Analytics</Link>
+        </li>
+        <li>
+          <Link to="/view-google-analytics">View Google Analytics</Link>
+        </li>
+        <li>
+          <Link to="/add-blogs">Add Blogs</Link>
         </li>
       </ul>
     </div>

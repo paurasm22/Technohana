@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Login = () => {
+const Registration = () => {
   return (
     <div className="flex flex-col md:flex-row h-screen items-center justify-center bg-blue-100">
       {/* Left Section */}
-      <div className="hidden md:flex items-center justify-center bg-white  w-[574px] h-[349px]">
+      <div className="hidden md:flex items-center justify-center bg-white w-[574px] h-[349px]">
         {/* <p className="text-black text-3xl">574x349</p> */}
         <img src="https://technohana.com/assets/img/logo/logo.png" alt="" />
       </div>
@@ -18,19 +18,31 @@ const Login = () => {
           </div>
         </div>
 
-        <h2 className="text-2xl font-bold mb-4">Welcome to Back! 👋</h2>
+        <h2 className="text-2xl font-bold mb-4">Create an Account! 😊</h2>
         <p className="mb-6">
-          Please sign in to your account and start the adventure
+          Fill in the form below to sign up for a new account.
         </p>
 
         <form>
           <div className="mb-4">
+            <label htmlFor="username" className="block text-sm mb-2">
+              Username
+            </label>
+            <input
+              id="username"
+              type="text"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="Enter your username"
+            />
+          </div>
+
+          <div className="mb-4">
             <label htmlFor="email" className="block text-sm mb-2">
-              Email or Username
+              Email
             </label>
             <input
               id="email"
-              type="text"
+              type="email"
               className="w-full px-3 py-2 border border-gray-300 rounded-md"
               placeholder="Enter your email"
             />
@@ -38,7 +50,7 @@ const Login = () => {
 
           <div className="mb-4">
             <label htmlFor="password" className="block text-sm mb-2">
-              Current Password
+              Password
             </label>
             <input
               id="password"
@@ -48,24 +60,26 @@ const Login = () => {
             />
           </div>
 
-          <div className="flex items-center justify-between mb-6">
-            <label className="flex items-center">
-              <input type="checkbox" className="mr-2" />
-              <span>Remember Me</span>
+          <div className="mb-4">
+            <label htmlFor="confirm-password" className="block text-sm mb-2">
+              Confirm Password
             </label>
-            <a href="#" className="text-sm text-blue-500">
-              Forgot Password?
-            </a>
+            <input
+              id="confirm-password"
+              type="password"
+              className="w-full px-3 py-2 border border-gray-300 rounded-md"
+              placeholder="Confirm your password"
+            />
           </div>
 
           <button className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">
-            Sign In
+            Sign Up
           </button>
 
           <p className="text-center mt-4 text-sm">
-            New on our platform?{" "}
-            <Link to={"/registration"} className="text-blue-500">
-              Create an account
+            Already have an account?{" "}
+            <Link to={"/login"} className="text-blue-500">
+              Sign In
             </Link>
           </p>
 
@@ -74,7 +88,7 @@ const Login = () => {
           </div>
 
           <div className="flex items-center justify-center mt-4 space-x-4">
-            <button className="bg-gray-200 p-2 rounded-full ">
+            <button className="bg-gray-200 p-2 rounded-full">
               <img
                 src="https://imgs.search.brave.com/0_cFNEEJUfPjk3NuZFMukZ3JneWzWK290tu4UTJRVjc/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpZ2l0YWxhZ2Vu/Y3kuY29tLmF1L3dw/LWNvbnRlbnQvdXBs/b2Fkcy9GYWNlYm9v/ay1sb2dvLWJsdWUt/bWVkaXVtLXNpemUt/UE5HLnBuZw"
                 alt="Facebook"
@@ -102,4 +116,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Registration;
