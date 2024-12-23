@@ -20,63 +20,54 @@ function Sidebar() {
           <Link to="/home/editdomain">Edit Domain</Link>
         </li>
         <li>
-          <Link to="/course-list">Course List</Link>
+          <Link to="/home/course-list">Course List</Link>
         </li>
         <li>
-          <Link to="/add-course">Add Course</Link>
+          <Link to="/home/add-course">Add Course</Link>
         </li>
         <li>
           <Link to="/edit-custom-course">Edit Custom Course</Link>
         </li>
         <li>
-          <Link to="/course-sequence">Course Sequence</Link>
+          <Link to="/home/course-sequence">Course Sequence</Link>
         </li>
-        <li>
-          <Link to="/add-category-pages">Add Category Pages</Link>
-        </li>
-        <li>
+        {/* <li> */}
+        {/* <Link to="/add-category-pages">Add Category Pages</Link> */}
+        {/* </li> */}
+        {/* <li>
           <Link to="/add-featured-students">Add Featured Students</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/combo">Combo</Link>
         </li>
         <li>
           <Link to="/keywords-in-page">Keywords In Page</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/tech-pc">Tech PC</Link>
-        </li>
+        </li> */}
         <li>
-          <Link to="/exam-detail">Exam Detail</Link>
+          <Link to="/home/examdetail">Exam Detail</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/trainer-course-relation">Trainer Course Relation</Link>
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <Link to="/view-trainer-course-relation">
             View Trainer Course Relation
           </Link>
+        </li> */}
+        <li>
+          <Link to="/home/faq">FAQ</Link>
         </li>
         <li>
-          <Link to="/faq">FAQ</Link>
+          <Link to="/home/sales-assistance">Sales Assistant</Link>
         </li>
         <li>
-          <Link to="/course-content">Course Content (PDF)</Link>
+          <Link to="/home/techcall">Tech Call</Link>
         </li>
         <li>
-          <Link to="/tech-tree">Tech Tree</Link>
-        </li>
-        <li>
-          <Link to="/ab-test">AB Test</Link>
-        </li>
-        <li>
-          <Link to="/upload-google-analytics">Upload Google Analytics</Link>
-        </li>
-        <li>
-          <Link to="/view-google-analytics">View Google Analytics</Link>
-        </li>
-        <li>
-          <Link to="/add-blogs">Add Blogs</Link>
+          <Link to="/home/freelance-req">Freelance Requests</Link>
         </li>
       </ul>
     </div>
